@@ -1,0 +1,51 @@
+body {
+  font-family: "Brush Script MT", cursive;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.container {
+  border: 2px solid black;
+  border-radius: 15px;
+  padding: 2rem;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+textarea {
+  /* width: 100%; */
+  height: 100px;
+  padding: 10px;
+}
+#convertButton {
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 5px;
+}
+#outputStyle {
+  position: relative;
+  z-index: 0;
+}
+pre {
+  background-color: #f0f0f0;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+.copybtn {
+  z-index: 1;
+  border: 1px solid gray;
+  background-image: url("/img/copy.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin: 5px;
+  cursor: pointer;
+  
+  right: 0;
+  top:0px;
+  height: 20px;
+  width: 20px;
+}

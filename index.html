@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>XAML Style Converter</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1 style="text-align: center">
+        XAML Inline Style to External Style Converter
+      </h1>
+
+      <label for="inputXaml">Input Inline XAML:</label>
+
+      <textarea
+        id="inputXaml"
+        placeholder='<TextBlock Margin="5 5 5 5" FontSize="10" Background="Black">Hello world</TextBlock>'
+      >
+      </textarea>
+
+      <button id="convertButton">Convert</button>
+
+      <h2>Output Style:</h2>
+
+      <pre id="outputStyle"></pre>
+      <!-- <button class="copybtn" onclick="copyFunction()">
+        <img height="20px" src="./img/copy.png" alt="copy">,<p>Copy</p>
+      </button> -->
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
