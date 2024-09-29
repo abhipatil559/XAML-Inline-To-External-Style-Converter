@@ -3,7 +3,6 @@
 This JavaScript tool helps developers convert XAML inline styles into reusable external styles. It can handle both complete XAML elements and individual style attributes, providing a clean and organized way to maintain UI styles.
 Demo : 
 Input:
-
 <TextBlock Margin="5 5 5 5" FontSize="10" Background="Black">Hello world</TextBlock>
 
 Output:
